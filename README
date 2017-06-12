@@ -1,0 +1,55 @@
+#############################################
+Author : Deepanshu Tyagi
+Course : CS201 Computer Organization
+Task   : Matrix Multiplication
+#############################################
+
+Files : 
+1. MatriceMul.asm - 	Assembly code for matrix multiplication
+2. io.mac 		  - 	Assembly code for i/o (macros only)
+3. makefile		  - 	makefile for building the binary(executable)
+
+Instructions for running the program : 
+
+1. Open your terminal in root directory of the project
+2. Run this command - 'make' for building the executable
+3. Run executable   - './bin/matriceMul'
+
+Input Format : 
+
+1. enter the rows for 1st matrix
+2. enter the cols for 1st matrix
+3. enter all the elements for the matrix (make sure to seperate each element with a newline)
+4. repeat above 3 steps for matrix 2
+
+Output Format :
+
+Resultant matrix 
+
+
+Example : 
+
+Input : 
+
+Matrix 1 : 
+Enter the number of rows : 1
+Enter the number of cols : 2
+Enter the elements : 
+1
+2
+Matrix 2 : 
+Enter the number of rows : 2
+Enter the number of cols : 1
+Enter the elements : 
+3
+4
+
+Output : 
+
+Matrix 1 : 
+1 2 
+Matrix 2 : 
+3 
+4 
+Resultant Matrix : 
+11 
